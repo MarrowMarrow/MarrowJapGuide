@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tokyo</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <style>
+            body {
+                background-image: url(images/tokyo.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: dimgray;
+                font-family: Segoe UI, sans-serif;
+                color: aqua;
+            }
+            h1, h3, p, label {
+                text-shadow: 1px 1px 2px black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="text-center" style="color: hotpink;">Tokyo</h1>
+
+            <h3 class="mt-4">Welcome to Tokyo, the bustling capital of Japan and a city that never sleeps!</h3>
+            <p>Tokyo is known for its dazzling neon lights, towering skyscrapers, and rich culture. 
+                From the historic Meiji Shrine to the bustling streets of Shibuya, there's something for everyone here. 
+                Tokyo is also home to some of the world’s most advanced technology and unique pop culture.
+            </p>
+
+            <div class="mt-4">
+                <h4>Fun fact:</h4>
+                <p>There are actually 23 vending machines per person in Japan. Would you frequently use them?</p>
+                <form>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="vendingMachines" id="yes" value="Yes">
+                        <label class="form-check-label" for="yes">Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="vendingMachines" id="no" value="No">
+                        <label class="form-check-label" for="no">No</label>
+                    </div>
+                </form>
+            </div>
+
+            <h3 class="mt-5">Work Culture in Tokyo</h3>
+            <p>Life in Tokyo is fast-paced, and the work culture reflects this. The city’s salarymen and office workers often work long hours, 
+                balancing the demands of their careers with the vibrant nightlife and entertainment Tokyo offers.
+                Despite the intensity, there is a deep sense of commitment and community among the workforce.</p>
+
+            <h3 class="mt-5">A Walk Through History</h3>
+            <p>Tokyo’s history is as fascinating as its present. From the Edo period when it was known as Edo, 
+                to its transformation into the metropolitan powerhouse it is today, Tokyo has seen incredible changes. 
+                What was once a quiet fishing village has grown into one of the largest and busiest cities in the world.</p>
+
+            <h3 class="mt-5">Recommendation</h3>
+            <p>If you thrive in a fast-paced, urban environment and love the energy of big cities, Tokyo is the place for you. 
+                From its iconic sights to its endless opportunities for adventure, Tokyo truly has it all.</p>
+
+            <p class="mt-4">Here's a link back to the <a href="Main%20Page.html" style="color: hotpink;">Main Page</a>, or if you want to explore the rural quiet life of <a href="Okinawa.html" style="color: hotpink;">Okinawa</a>.</p>
+        </div>
+
+        <footer class="text-center mt-5">
+            <p>&copy; <?php echo date('Y'); ?> Japan Tour Guide</p>
+        </footer>
+    </body>
+</html>
